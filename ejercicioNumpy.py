@@ -53,10 +53,22 @@ b = np.random.random((3,3))
 print(a==b)
 
 
+#Crear operacion aritmética de arrays
+
+c = np.array([[1,2,3],[4,5,6]])
+d = np.array([[10,11,12],[13,14,15]])
+
+print(c+d)
+print(c/d)
+print(c**2)
+
+c = np.array([[1,2,3],[4,5,6]])
+d = np.array([[10,11],[12,13],[14,15]])
 
 
-
-
+print(c.dot(d)) #Poducto matricial          
+print()
+print(c.T) #trasponet matriz
 
 
 
