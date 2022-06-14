@@ -1,8 +1,8 @@
+from functools import reduce
 
 
 def ordenes(rutinaContable):
-    from functools import reduce
-
+ 
     ordenMinima = 600000
     ordenTotal = list(map(lambda x: [x[0]] + list(map(lambda y: y[1]*y[2], x[1:])), rutinaContable))
     ordenTotal = list(map(lambda x: [x[0]] + [reduce (lambda a,b:round(a+b,2), x[1:])], ordenTotal))

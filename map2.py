@@ -3,4 +3,4 @@ b = [7,8,9,10]
 c = [8,10,20, 30]
 
 d= list(map(lambda x,y,z :x*y*z, a,b,c))
-print(dp
+print(d)
