@@ -21,3 +21,5 @@ print("Ejercicio 13")
 datos = datos.append(pd.Series(["HTML", "REACT"])).reset_index()
 print(datos)
 print()
+
+
